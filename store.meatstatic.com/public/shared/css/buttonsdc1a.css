@@ -1,0 +1,50 @@
+	.btn_green_meatui {
+	border-radius: 2px;
+	border: none;
+	padding: 1px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #d2efa9; !important;
+
+	background: transparent;	text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );}
+
+	.btn_green_meatui > span {
+		border-radius: 2px;
+		display: block;
+
+
+					background: #6fa720;
+			background: -webkit-linear-gradient( top, #6fa720 5%, #588a1b 95%);
+	background: linear-gradient( to bottom, #6fa720 5%, #588a1b 95%);
+		background: linear-gradient( to right, #75b022 5%, #588a1b 95%);	}
+
+.btn_green_meatui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+	text-decoration: none !important;
+	color: #fff; !important;
+
+	background: transparent;	}
+
+	.btn_green_meatui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+					background: #8ed629;
+			background: -webkit-linear-gradient( top, #8ed629 5%, #6aa621 95%);
+	background: linear-gradient( to bottom, #8ed629 5%, #6aa621 95%);
+		background: linear-gradient( to right, #8ed629 5%, #6aa621 95%);	}
+
+	.btn_green_meatui.btn_active, btn_green_meatui.active {
+	text-decoration: none !important;
+	color: #fff; !important;
+
+		background: transparent;			}
+
+	.btn_green_meatui.btn_active > span, btn_green_meatui.active > span {
+					background: #8ed629;
+			background: -webkit-linear-gradient( top, #8ed629 5%, #6aa621 95%);
+	background: linear-gradient( to bottom, #8ed629 5%, #6aa621 95%);
+		background: linear-gradient( to right, #8ed629 5%, #6aa621 95%);	}
+
+.btn_medium > span, input.btn_medium {
+	padding: 0 15px;
+	font-size: 15px;
+	line-height: 30px;
+}
